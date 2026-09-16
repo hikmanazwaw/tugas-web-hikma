@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Biodata Mahasiswa</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding-bottom: 40px;
+      }
+      .foto-mahasiswa {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+
+      .about-card {
+        width: 80%;
+        max-width: 800px;
+        background-color: pink;
+        padding: 25px 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        margin: 30px auto;
+      }
+
+      .about-card h3 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 16px;
+        color: #2c3e50;
+        position: relative;
+      }
+
+      .about-card h3::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: #3498db;
+        margin: 8px auto 0 auto;
+        border-radius: 2px;
+      }
+
+      .bio-text {
+        text-align: justify;
+        line-height: 1.6;
+        color: #333;
+        margin: 50;
+      }
+
+      .bio-text {
+        width: 80%;
+        max-width: 680px;
+        text-align: justify;
+        background: floralwhite;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .skills-container {
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      .skill-badge {
+        display: inline-block;
+        background-color: #2c3e50;
+        color: white;
+        padding: 6px 12px;
+        margin: 4px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: bold;
+      }
+
+      .contact-links {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .contact-links a {
+        color: #3498db;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+
+      .contact-links a::hover {
+        text-decoration: underline;
+      }
+
+      .header-tabel {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body bgcolor="pink">
+    <marquee behavior="alternate" direction="right">
+      <p color="blue">Universitas Nusantara PGRI Kediri</p>
+    </marquee>
+
+    <h1 align="center">Biodata Mahasiswa</h1>
+    <table
+      border="1"
+      cellspacing="0"
+      align="center"
+      cellpadding="8"
+      width="800"
+      color="#2c3e50"
+      bgcolor="white"
+    >
+      <tr align="center" bgcolor="#2c3e50" class="header-tabel">
+        <td><b>Data Mahasiswa</b></td>
+        <td><b>Keterangan</b></td>
+        <td><b>Foto</b></td>
+      </tr>
+      <tr>
+        <td>Nama Mahasiswa</td>
+        <td>ANU</td>
+        <td rowspan="4" align="center" valign="middle">
+          <img src="foto.jpg" alt="Foto Mahasiswa" class="foto-mahasiswa" />
+        </td>
+      </tr>
+      <tr>
+        <td>Nomor Induk Mahasiswa</td>
+        <td>2513xxx</td>
+      </tr>
+      <tr>
+        <td>Alamat Rumah</td>
+        <td>Kndari</td>
+      </tr>
+      <tr>
+        <td>Tempat Tanggal Lahir</td>
+        <td>Kediri, s 2007</td>
+      </tr>
+    </table>
+
+    <div class="about-card">
+      <h3>About Me</h3>
+      <p class="bio-text">
+        Halo! Saya , mahasiswa Sistem Informasi yang memiliki ketertarikan besar
+        pada front-end web development dan pemrosesan data. Saya senang mengubah
+        ide dan logika pemrograman menjadi tampilan website yang interaktif,
+        sekaligus mengolah dataset untuk menghasilkan informasi yang bermanfaat.
+        Saat ini saya berfokus mengembangkan hard skills melalui pembuatan
+        proyek-proyek web dan eksplorasi teknologi secara mandiri.
+      </p>
+
+      <div class="skills-title" align="center">
+        <h4><b>Keahlian Utama</b></h4>
+      </div>
+      <div class="skills-container">
+        <span class="skill-badge">HTML5</span>
+        <span class="skill-badge">CSS3</span>
+        <span class="skill-badge">JavaScript</span>
+        <span class="skill-badge">Python</span>
+        <span class="skill-badge">Data Processing</span>
+      </div>
+
+      <div class="contact-links">
+        <a href="https://github.com/hikmanazwaw" target="hikmanazwaw">GitHub</a>
+        |
+        <a href="https://www.instagram.com/hikmanazwaw/" target="@hikmanazwaw"
+          >Instagram</a
+        >
+        |
+        <a href="mailto::nazwahikma06@gmail.com">Email</a>
+      </div>
+    </div>
+  </body>
+</html>
