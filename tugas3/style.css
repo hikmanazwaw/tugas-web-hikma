@@ -1,0 +1,16 @@
+h1 {
+  /* untuk h1 warna merah dn ukuran font 30px */
+  color: red;
+  font-size: 30px;
+}
+
+p {
+  /* untuk p warna hijau dan ukuran 10px */
+  color: green;
+  font-size: 10px;
+}
+
+/* untuk h2 ukuran font 20px  */
+h2 {
+  font-size: 20px;
+}
