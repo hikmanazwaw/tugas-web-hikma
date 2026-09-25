@@ -27,11 +27,13 @@ body {
 }
 
 .nav {
+  /* membuat display inline-block agar bisa diberikan dimensi */
   padding: 0px;
 }
 
 .nav li {
   /* membuat navigasi menjadi horizontal dan mengatur jarak antar menu */
+  /* agar menjadi ke samping, tidak ke bawah  */
   display: inline-block;
   margin-right: 10px;
   margin-top: 20px;
@@ -48,4 +50,59 @@ body {
   background-color: orange;
   color: white;
   transition: 0.5s;
+}
+
+.banner {
+  /* untuk css banner  */
+  height: 300px;
+  /* background-color: skyblue */
+  /* berikan file gambar */
+  background-image: url(../img/mikasa.jpg);
+  /* atur ukuran gambar */
+  background-size: cover;
+  /* mengatur posisi gambar horizontal dan vertikal agar berada di tengah */
+  background-position: center;
+  /* mengatur garis tepi tebal jenis warna */
+  border-top: 5px solid navy;
+  border-bottom: 5px solid skyblue;
+}
+
+/* untuk isi */
+.isi {
+  padding: 20px;
+}
+
+.isi h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.isi .penulis {
+  font-size: 30 px;
+  /* agak naik */
+  margin-top: -10px;
+}
+
+.isi .penulis a {
+  text-decoration: none;
+  color: navy;
+}
+
+.isi p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-style: sans-serif;
+}
+
+/* untuk footer */
+.footer {
+  background-color: navy;
+  height: 50px;
+  padding: 2px;
+}
+
+.footer .copyright {
+  font-size: 16px;
+  color: white;
+  text-align: center;
 }
