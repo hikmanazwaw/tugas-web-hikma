@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KASIR-JS</title>
+  </head>
+  <body>
+    <h1>Program Kasir Sederhana</h1>
+
+    <script type="text/javascript">
+      // Input data
+      let namaBarang = prompt("Masukkan nama barang:");
+      let harga = parseFloat(prompt("Masukkan harga barang:"));
+      let qty = parseInt(prompt("Masukkan jumlah beli (qty):"));
+
+      // Perhitungan
+      let subtotal = harga * qty;
+      let diskon = 0;
+
+      if (subtotal > 50000) {
+        diskon = subtotal * 0.1;
+      }
+
+      let totalBayar = subtotal - diskon;
+
+      // Format angka dengan titik pemisah ribuan
+      let hargaFormatted = harga.toLocaleString("id-ID");
+      let subtotalFormatted = subtotal.toLocaleString("id-ID");
+      let diskonFormatted = diskon.toLocaleString("id-ID");
+      let totalBayarFormatted = totalBayar.toLocaleString("id-ID");
+
+      // Menampilkan output tanpa tanda +
+      document.write("<pre>");
+      document.write("nama    Harga    qty   total<br>");
+      document.write(
+        namaBarang +
+          "  " +
+          hargaFormatted +
+          "   " +
+          qty +
+          "     " +
+          subtotalFormatted +
+          "<br><br>",
+      );
+      document.write("total belanja       " + subtotalFormatted + "<br>");
+      document.write("diskon              " + diskonFormatted + "<br>");
+      document.write("pembayaran          " + totalBayarFormatted + "<br>");
+      document.write("</pre>");
+    </script>
+  </body>
+</html>
