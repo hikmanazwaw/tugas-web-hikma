@@ -12,16 +12,24 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
     <title>My Portofolio | Hikma Nazwa Agustin</title>
   </head>
-  <body>
+  <body id="home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top"
+    >
       <div class="container">
-        <a class="navbar-brand" href="#">Hikma Nazwa</a>
+        <a class="navbar-brand" href="#">Hikma Nazwa Agustin</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,16 +44,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -60,7 +70,7 @@
         width="200"
         class="rounded-circle img-thumbnail"
       />
-      <h1 class="display-4">Hikma Nazwa</h1>
+      <h1 class="display-4">Hikma Nazwa Agustin</h1>
       <p class="lead">Undergraduate of Information System</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -81,24 +91,188 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-4">
+          <div class="col-md-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              corporis optio inventore similique sapiente soluta expedita eaque
-              autem distinctio voluptates.
+              Hikma Nazwa Agustin merupakan mahasiswa Sistem Informasi yang
+              memiliki ketertarikan kuat terhadap teknologi informasi, khususnya
+              dalam bidang pengembangan perangkat lunak. Minatnya semakin
+              condong ke arah software engineering karena ketertarikannya dalam
+              memahami bagaimana sebuah sistem dirancang, dikembangkan, dan
+              diimplementasikan untuk menyelesaikan permasalahan pengguna maupun
+              kebutuhan bisnis. Ia juga tertarik untuk mendalami full-stack
+              development, mulai dari frontend, backend, database, API, hingga
+              integrasi berbagai komponen dalam sebuah aplikasi.
             </p>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              corporis optio inventore similique sapiente soluta expedita eaque
-              autem distinctio voluptates.
+              Dalam proses pengembangannya, saya berusaha memperkuat fundamental
+              pemrograman sekaligus memperluas pemahaman mengenai software
+              engineering, seperti algoritma, struktur data, system design,
+              version control, testing, dan deployment. Ia ingin tidak hanya
+              mampu menulis kode, tetapi juga memahami bagaimana membangun
+              perangkat lunak yang terstruktur, efisien, mudah dipelihara, dan
+              dapat dikembangkan dalam jangka panjang. Ke depannya, ia berharap
+              dapat mengembangkan kemampuan melalui berbagai proyek dan
+              portofolio untuk mempersiapkan diri berkarier sebagai software
+              engineer, khususnya dalam bidang full-stack development.
             </p>
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,224L60,213.3C120,203,240,181,360,170.7C480,160,600,160,720,181.3C840,203,960,245,1080,234.7C1200,224,1320,160,1380,128L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- akhir about -->
+
+    <!-- projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <p class="card-text">
+                  Ketik Kode merupakan kegiatan untuk melatih kemampuan
+                  pemrograman melalui praktik menulis, memahami, dan
+                  mengembangkan kode secara langsung.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/2.jpg" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <p class="card-text">
+                  Merancang tampilan dan antarmuka website yang sesuai dengan
+                  kebutuhan bisnis, karakteristik pengguna, serta tujuan dan
+                  identitas perusahaan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/3.jpg" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <p class="card-text">
+                  Merancang prototype dan antarmuka website menggunakan Figma
+                  berdasarkan kebutuhan bisnis, alur pengguna, dan prinsip
+                  UI/UX.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/4.jpg" class="card-img-top" alt="Project 4" />
+              <div class="card-body">
+                <p class="card-text">
+                  Menganalisis kebutuhan bisnis dan pengguna untuk menentukan
+                  solusi sistem yang tepat, efektif, dan sesuai dengan tujuan
+                  organisasi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/5.jpg" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mengembangkan dan mengimplementasikan kode untuk membangun
+                  proyek aplikasi berdasarkan kebutuhan dan rancangan sistem
+                  yang telah ditentukan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,96L20,133.3C40,171,80,245,120,245.3C160,245,200,171,240,170.7C280,171,320,245,360,277.3C400,309,440,299,480,293.3C520,288,560,288,600,288C640,288,680,288,720,272C760,256,800,224,840,229.3C880,235,920,277,960,266.7C1000,256,1040,192,1080,170.7C1120,149,1160,171,1200,176C1240,181,1280,171,1320,170.7C1360,171,1400,181,1420,186.7L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir projects -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,96L20,133.3C40,171,80,245,120,245.3C160,245,200,171,240,170.7C280,171,320,245,360,277.3C400,309,440,299,480,293.3C520,288,560,288,600,288C640,288,680,288,720,272C760,256,800,224,840,229.3C880,235,920,277,960,266.7C1000,256,1040,192,1080,170.7C1120,149,1160,171,1200,176C1240,181,1280,171,1320,170.7C1360,171,1400,181,1420,186.7L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir contact -->
+
+    <!-- footer -->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p>
+        Created with <i class="bi bi-balloon-heart-fill text-danger"></i> by
+        <a
+          href="https://www.instagram.com/hikmanazwaw/"
+          class="text-white fw-bold"
+          >Hikma Nazwa Agustin</a
+        >
+      </p>
+    </footer>
+    <!-- akhir footer -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
