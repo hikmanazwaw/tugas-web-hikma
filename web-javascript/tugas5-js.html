@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penggunaan Fungsi</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      //fungsi salam
+      function salam() {
+        document.write("<h2>Assalamualaikum</h2>");
+      }
+      //memanggil fungsi
+      salam();
+
+      //fungsi dengan parameter
+      function tambah(a, b) {
+        var c = a + b;
+        return c;
+      }
+
+      var penjumlahan = tambah(13, 21);
+      document.write("hasil dari penjumlahan 13 dan 21 adalah " + penjumlahan);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar DOM</title>
+  </head>
+  <body>
+    <h1>Belajar DOM</h1>
+
+    <p>
+      paragraf 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+      eos assumenda qui dignissimos nihil eveniet corrupti similique provident
+      accusantium cupiditate!
+    </p>
+    <p>
+      paragraf 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+      eos assumenda qui dignissimos nihil eveniet corrupti similique provident
+      accusantium cupiditate!
+    </p>
+    <h3 class="daftar">Daftar</h3>
+    <ul>
+      <li>Indonesia</li>
+      <li>Malaysia</li>
+      <li>Singapura</li>
+      <li>Vietnam</li>
+      <li>Thailand</li>
+    </ul>
+
+    <script>
+      let p = document.getElementsByTagName("p");
+      console.log(p);
+    </script>
+    <script>
+      let daftar = document.getElementsByClassName("daftar");
+      console.log(daftar);
+    </script>
+    <script>
+      let title = document.querySelector("h1");
+      console.log(title);
+    </script>
+    <script>
+      let list = document.querySelector("li");
+      console.log(list);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penggunaan Object</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      //membuat object
+
+      var obj = {
+        penulis: "Hikma Nazwa Agustin",
+        buku: ["Senandung Deburan Debu", "Petikan Kembang"],
+        hal: 121,
+        isTerbit: true,
+      };
+
+      console.log(obj);
+    </script>
+    <script type="text/javascript">
+      //membuat object dengan constructor
+
+      function orang(nama, gender, umur, alamat) {
+        this.nama = nama;
+        this.gender = gender;
+        this.umur = umur;
+        this.alamat = alamat;
+      }
+
+      //membuat instance object
+      var Dewasa = new orang("Hikma", "P", 20, ["Tepus", "Ngasem", "Kediri"]);
+      console.log(Dewasa);
+    </script>
+  </body>
+</html>
